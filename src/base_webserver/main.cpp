@@ -2,8 +2,9 @@
 #include <WebServer.h>
 
 
-const char* ssid = "Fibertel WiFi236 2.4GHz";
-const char* password = "00441265543";
+const char* ssid = "ssid"; 
+const char* password = "password";
+// Reemplaza con tu SSID y contraseña de red Wi-Fi
 
 WebServer server(80); // Puerto HTTP
 
